@@ -402,7 +402,7 @@ h3{
                     </div>
                     <div class="content1">
                         <p> We are Professional Surveyors with Good experience of working with industry heads 
-                            nd a committed team who are extremely expert, diligent and cautiously perform the assigned work in an efficient manner.
+                            and a committed team who are extremely expert, diligent and cautiously perform the assigned work in an efficient manner.
                         </p>
 
                     </div>
@@ -482,16 +482,16 @@ h3{
             <div class="tooltip">
                Facebook
             </div>
-            <a href="gooole.com" style="text-decoration: none;color:#000000" ><span><i class="fab fa-facebook-f"></i></span></a>
+            <a href="#" style="text-decoration: none;color:#000000" ><span><i class="fab fa-facebook-f"></i></span></a>
          </div>
          <div class="icon twitter">
            <a href="#"> <div class="tooltip">
                Twitter
             </div>
-            <a href="gooole.com" style="text-decoration: none;color:#000000" ></a><span><i class="fab fa-twitter"></i></span></a>
+            <a href="#" style="text-decoration: none;color:#000000" ></a><span><i class="fab fa-twitter"></i></span></a>
          </div>
          <div class="icon instagram">
-            <a href="gooole.com" style="text-decoration: none;color:#000000" ><div class="tooltip">
+            <a href="https://instagram.com/nakshatra_survey_consultancy?utm_medium=copy_link" style="text-decoration: none;color:#000000" ><div class="tooltip">
                Instagram
             </div>
             <span><i class="fab fa-instagram"></i></span></a>
@@ -590,10 +590,12 @@ Email.send({
     To : 'mahipalwrglmahipal@gmail.com',
     From : document.getElementById("input_email").value,
     Subject :document.getElementById("sub").value ,
-    Body : document.getElementById("msg").value
+    Body : document.getElementById("msg").value,
 }).then(
-  message => alert(message)
+  message => alert("Message Sent Successfully!!")
 );
+var form=document.getElementById("contact-form");
+form.reset();
 
 }
 </script>
